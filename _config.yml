@@ -6,17 +6,64 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: junq.io
+email: junq.me@gmail.com
+author: junq
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://junq.io" # the base hostname & protocol for your site
 enforce_ssl: junq.io
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  cnjunq
+
+# This will show up at the top of index page
+site_heading: >
+    junq <span class="faded">'s blog</span>
+
+# This description will show up in google search results
+# (for index page) etc.
+description: >
+    accent is, as Trump would put it, the best
+
+# This will what will show against &copy; in the footer
+copyright: junq
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: false         # Tip: Remove the span from site_heading if intro is set to true
+# This will be displayed in your intro
+short_bio: >
+    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
+    theme is that you can change the accent color. Refer the
+    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
+        Documentation
+    </a>
+    to know how.
+
+permalink: /:title.html
+
+# Comments are powered by disqus
+comments: true
+
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    Put a dent in the universe.
+
+about_footer: true
+
+favicon: true
+favicon_location: "images/favicon.ico"
+
+profile_picture: images/junq_avatar.jpg
+paginate: 9
+paginate_path: "/page/:num"
+tracking_id: UA-82392264-1 # GA Tracking ID
+
+# Social Stuff | open graph and twitter cards
+og_image: "images/accent.png" # This will show in facebook thumbnails
+twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
+
 
 # Build settings
 markdown: kramdown
@@ -29,3 +76,24 @@ kramdown:
 gems:
   - jekyll-coffeescript
   - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude: [vendor] # For travis ci
