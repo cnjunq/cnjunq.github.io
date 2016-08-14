@@ -12,7 +12,7 @@ author: junq
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://junq.io" # the base hostname & protocol for your site
 enforce_ssl: junq.io
-#twitter_username: jekyllrb
+twitter_username: junqiangliu
 github_username:  cnjunq
 
 # This will show up at the top of index page
@@ -55,7 +55,7 @@ about_footer: true
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/junq_avatar.jpg
+profile_picture: images/junq_avatar_100x100.jpg
 paginate: 9
 paginate_path: "/page/:num"
 tracking_id: UA-82392264-1 # GA Tracking ID
