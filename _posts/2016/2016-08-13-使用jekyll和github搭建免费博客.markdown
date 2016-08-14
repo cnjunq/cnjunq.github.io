@@ -91,6 +91,11 @@ bundle exec jekyll serve
 
 Github Pages和Jekyll对Markdown的支持及其良好，所以需要一款Markdown编辑器，在此建议使用Atom这款编辑器，再安装Markdown Writer插件，便可方便的进行文章的编写。
 
+## 使用自有域名和HTTPS
+
+首先需要去Godaddy、万网等域名注册商那里注册想要的域名（当然，这个是不免费的哈），然后参考Github Pages文档里的 [Using a custom domain with GitHub Pages][f7de4b2b]，进行域名的配置哈。建议给博客开通HTTPS服务，可以参考 [Set Up SSL on Github Pages With Custom Domains for Free][5a010e95] 来使用 Cloudflare 的免费CDN和HTTPS服务哈。
+
+
 ## Reference
 
 * [Customizing GitHub Pages][9c1213d9]
@@ -98,6 +103,7 @@ Github Pages和Jekyll对Markdown的支持及其良好，所以需要一款Markdo
 * [accent theme for Jekyll][96aa526e]
 * [Jekyll][39261f22]
 
+  [f7de4b2b]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/ "Using a custom domain with GitHub Pages"
   [9c1213d9]: https://help.github.com/categories/customizing-github-pages/ "Customizing GitHub Pages"
   [5a010e95]: https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/ "Set Up SSL on Github Pages With Custom Domains for Free"
   [96aa526e]: https://ankitsultana.me/accent/ "accent theme for Jekyll"
