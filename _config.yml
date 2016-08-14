@@ -12,7 +12,7 @@ author: junq
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://junq.io" # the base hostname & protocol for your site
 enforce_ssl: junq.io
-twitter_username: junqiangliu
+twitter_username: junqiang
 github_username:  cnjunq
 
 # This will show up at the top of index page
