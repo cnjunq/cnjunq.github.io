@@ -13,7 +13,7 @@ API文档管理是一个较为麻烦的事情，作为开发人员我们都了�
 的直观查看，当然你也可以在代码中直接进行API文档的编写，本教程将介绍如何在Spring REST API项目中，进行
 Swagger2的集成，这样便可以很方便地进行API文档编写了。
 
-在本篇教程中将使用Springfox的Swagger2来集成，关于 Swagger2 和 Springfox 的介绍如下：
+在本篇教程中将使用Springfox的Swagger实现来集成，关于 Swagger2 和 Springfox 的介绍如下：
 
 * [Swagger 2][fcfb529e]
 * [Springfox][effd621e]
@@ -26,11 +26,11 @@ Swagger2的集成，这样便可以很方便地进行API文档编写了。
 
 [Building a RESTful Web Service][32062182]
 
-## 添加Maven依赖
+### 添加Maven依赖
 
 在你的Spring REST项目中添加maven依赖，打开项目的pom.xml，添加如下内容：
 
-```
+```xml
 <dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-swagger2</artifactId>
