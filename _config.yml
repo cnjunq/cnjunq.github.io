@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: junq.io
+title: cnjunq's blog
 email: junq.me@gmail.com
 author: junq
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,7 +23,8 @@ site_heading: >
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    accent is, as Trump would put it, the best
+    Junqiang Liu(cnjunq)'s blog, recording thoughts about (mobile)internet,
+    technology, software engineering and architecture styles.
 
 # This will what will show against &copy; in the footer
 copyright: junq
