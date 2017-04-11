@@ -3,8 +3,8 @@
     {% include suggestion.html %}
     {% if page.url == "/about" or paginator.total_pages == 1 or page.url == "/404" %}
         <div class="container" style="text-align: center; margin-bottom: 20px">
-            <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
-                Follow me on twitter
+            <a target="_blank" class="button" href="http://weibo.com/{{ site.weibo_username }}">
+                Follow me on weibo
             </a>
         </div>
     {% endif %}
@@ -18,8 +18,8 @@
             {% endif %}
         </div>
         <div class="alignable pull-right">
-            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}" class="button">
-                @{{ site.twitter_username }}
+            <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}" class="button">
+                @{{ site.weibo_username }}
             </a>
             <a href="mailto:{{ site.email }}" class="button">
                 mail
