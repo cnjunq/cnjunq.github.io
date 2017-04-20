@@ -2,6 +2,7 @@
 layout: "post"
 title: "[教程]在Spring REST API中使用Swagger2进行文档管理"
 date: "2017-03-21 22:17"
+tags: Spring Swagger2 REST 文档管理
 ---
 
 ## 写在前面

@@ -2,6 +2,8 @@
 layout: "post"
 title: "[教程] 使用Jekyll和Github搭建免费博客"
 date: "2016-08-13 11:26"
+tags: jekyll github blog
+excerpt: 零费用，使用Github Pages + Jekyll 建立属于自己的技术博客。
 ---
 
 ## 写在前面
